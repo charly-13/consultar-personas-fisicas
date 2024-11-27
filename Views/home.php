@@ -13,14 +13,14 @@
     <div class="step-indicator">
       <div class="step-number active" id="step-1">1</div>
       <div class="step-number" id="step-2">2</div>
-      <div class="step-number" id="step-3">3</div>
+      <!-- <div class="step-number" id="step-3">3</div> -->
       <div class="progress-line"></div>
       <div class="progress-line fill" id="fill-line"></div>
     </div>
     <div class="d-flex justify-content-between">
       <div class="step-title">Registro</div>
-      <div class="step-title">General</div>
       <div class="step-title">Confirmar</div>
+      <!-- <div class="step-title">Confirmar</div> -->
     </div>
 
   </div>
@@ -95,6 +95,18 @@
                   <span id="errorphoneNumber" class="text-danger"></span>
                 </div>
               </div>
+
+              <div class="row">
+                <div class="col-md-12 mb-3">
+                  <label for="email" class="form-label">RFC con homoclave</label>
+                  <input type="text" class="form-control valid" id="rfc" name="rfc"
+                    placeholder="Ejemplo: ABCD123456XYZ" autocomplete="off">
+                  <span id="errorRfc" class="text-danger"></span>
+                </div>
+              </div>
+
+
+
               <button type="submit" class="btn btn-secondary btn-lg btn-block" id="btnContinuar">Continuar</button>
 
               <p id="tokenDisplay"></p>

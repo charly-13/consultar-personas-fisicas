@@ -438,3 +438,32 @@ select:focus {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
     /* Efecto de sombra */
 }
+
+
+/* Ajusta el tamaño del input */
+
+.custom-input {
+    width: 330px;
+    /* Cambia este valor para ajustar el tamaño del input */
+    font-size: 2rem;
+    /* Texto grande dentro del input */
+    margin: 0 auto;
+    /* Centra el input */
+}
+
+
+/* Ajustes para el botón */
+
+.btn_confirm {
+    width: 330px;
+    /* Cambia este valor si quieres ajustar el tamaño del botón */
+    margin: 0 auto;
+    /* Centra el botón */
+}
+
+
+/* Estilo del enlace "Volver a enviar código" */
+
+#resendCode {
+    margin-top: 20px;
+}

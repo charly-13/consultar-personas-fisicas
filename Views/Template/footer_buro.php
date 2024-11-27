@@ -22,6 +22,9 @@
 	    const base_url = "<?= base_url(); ?>";
 
 	</script>
+
+	    <!-- QRCode.js -->
+		<script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
 <!--===============================================================================================-->	
 	<script src="<?= media() ?>/solicitud/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
